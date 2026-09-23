@@ -3,8 +3,5 @@
   publish = "public"
   functions = "netlify/functions"
 
-[functions]
-  # "nft" copies the packages as they are instead of rewriting them, which is
-  # the safest choice for node-forge.
-  node_bundler = "nft"
-  node_version = "22"
+[build.environment]
+  NODE_VERSION = "22"
