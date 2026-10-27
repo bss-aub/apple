@@ -156,7 +156,7 @@ function buildPassJson(claim) {
     storeCard: {
       secondaryFields: [
         { key: 'member', label: 'MEMBER', value: String(claim.n) },
-        { key: 'aubid',  label: 'AUB ID', value: String(claim.i || '') }
+        { key: 'aubid',  label: 'AUB USERNAME', value: String(claim.i || '') }
       ],
       backFields: [
         { key: 'about', label: 'About',
